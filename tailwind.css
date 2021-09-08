@@ -1,0 +1,80 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply font-normal text-justify text-gray-600;
+  font-size: 14pt;
+}
+
+main.content {
+}
+
+address {
+  @apply not-italic;
+}
+
+section {
+  @apply m-0 my-8;
+}
+
+section.role {
+  @apply p-0 m-0 mt-6;
+}
+
+h1 {
+  @apply text-5xl font-bold text-gray-900;
+}
+
+h2 {
+  @apply mt-6 mb-4 text-3xl font-bold text-gray-700 underline;
+}
+
+h3 {
+  @apply text-2xl font-bold text-gray-700;
+}
+
+h4.position {
+  @apply font-bold text-gray-700;
+}
+
+blockquote {
+  @apply my-4 text-lg font-light leading-snug text-justify;
+}
+
+p.role {
+  @apply font-bold whitespace-no-wrap;
+}
+
+table {
+  @apply mx-2 my-2;
+}
+tr {
+  @apply my-2;
+}
+
+span.date {
+  @apply block text-gray-700;
+}
+
+dl {
+}
+dl div {
+}
+dt {
+  @apply font-medium text-gray-700 whitespace-no-wrap;
+}
+dd {
+  @apply col-span-2 mt-1 mb-3 ml-4 font-light text-justify;
+}
+
+ul {
+  @apply my-2 ml-8 list-disc list-outside;
+}
+li {
+  @apply my-2;
+}
+
+p {
+  @apply my-1;
+}
