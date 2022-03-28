@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 body {
-  @apply font-normal text-justify text-gray-600;
+  @apply font-normal text-gray-600;
   font-size: 14pt;
 }
 
