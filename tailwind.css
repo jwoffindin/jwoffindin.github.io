@@ -43,7 +43,7 @@ blockquote {
 }
 
 p.role {
-  @apply font-bold whitespace-no-wrap;
+  @apply font-bold no-wrap;
 }
 
 table {
